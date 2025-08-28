@@ -114,10 +114,6 @@ export function ContactSection() {
                 <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <MapPin className="h-5 w-5 text-primary" />
                 </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">{personalInfo.location}</p>
-                </div>
               </CardContent>
             </Card>
             
