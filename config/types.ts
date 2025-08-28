@@ -4,7 +4,6 @@ export interface PersonalInfo {
   bio: string;
   email: string;
   phone?: string;
-  location: string;
   resumeUrl?: string;
 }
 
